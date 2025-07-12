@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import Location from "@/components/Location";
+import Image from "next/image";
 import React from "react";
 
 const teamMembers = [
@@ -28,9 +29,11 @@ const About = () => {
     <main>
       <div className="flex flex-col items-center justify-center mt-6">
         {/* about page image */}
-        <img
+        <Image
           src={"/resturant.jpg"}
           alt="Elegant resturant interior"
+          width={600}
+          height={400}
           className=" rounded-lg w-full max-w-6xl h-auto md:h-96 shadow-md "
         />
 

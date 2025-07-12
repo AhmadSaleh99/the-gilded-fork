@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Image from "next/image";
 
 type BookingFormInputs = {
   name: string;
@@ -128,9 +129,11 @@ const BookingForm = () => {
 
         {/* Image Section (Hidden on small) */}
         <div className="hidden lg:block relative overflow-hidden">
-          <img
+          <Image
             src="/resturant.jpg"
             alt="Restaurant ambience"
+            width={400}
+            height={600}
             className="h-full w-full object-cover scale-100 hover:scale-105 transition-transform duration-500 ease-in-out"
           />
         </div>
