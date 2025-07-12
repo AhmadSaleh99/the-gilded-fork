@@ -36,3 +36,8 @@ Connect with us across various platforms via direct links.
 ## 🎨 Design & Theme
 
 "The Gilded Fork" website embodies a theme of sophistication, culinary artistry, and warmth. Every element is designed to convey the promise of an unforgettable and luxurious dining experience.
+
+### Links
+
+- Solution URL: [Github](https://github.com/AhmadSaleh99)
+- Live Site URL: [Live Site](https://the-gilded-fork-plum.vercel.app)
